@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+    width: 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.flex {
+    flex: 1;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+    margin: 0 0;
+}
+
+.active-link {
+    border-bottom: 1px solid white;
+}
+
+.server-error-message {
+    color: #ff1744;
+    font-size: 12px;
+}
+
+.server-error-wrapper {
+    margin-bottom: 20px !important;
+    text-align: center;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: Moderat_ss02;
+    src: url('font/Moderat-Regular.otf'); /* IE9 Compat Modes */
+    src: url('font/Moderat-Regular.otf'),
+    url('font/Moderat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: Moderat_ss02-Bold;
+    src: url('font/Moderat-Bold.eot');
+    src: url('font/Moderat-Bold.otf'),
+    url('font/Moderat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Demi;
+    src: url('font/AvenirNextLTPro-Demi.eot');
+    src: url('font/AvenirNextLTPro-Demi.otf'),
+    url('font/AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url('font/AvenirNextLTPro-Regular.eot');
+    src: url('font/AvenirNextLTPro-Regular.otf'),
+    url('font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Regular;
+    src: url('font/AvenirNextLTPro-Regular.eot');
+    src: url('font/AvenirNextLTPro-Regular.otf'),
+    url('font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Bold;
+    src: url(font/AvenirNextLTPro-Bold.otf);
+    src: url('font/AvenirNextLTPro-Bold.eot');
+    src: url('font/AvenirNextLTPro-Bold.otf'),
+    url('font/AvenirNextLTPro-Bold.woff') format('woff');
+}

@@ -1,0 +1,160 @@
+.drawer-paper {
+    border: none !important;
+    width: 320px;
+    max-width: 85%;
+    margin-top: 64px;
+    padding: 16px 0;
+}
+
+.app-bar {
+    background-color: #174DA1 !important;
+    top: 0;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0) !important;
+    position: fixed !important;
+}
+
+.drawer-content {
+    margin-top: 63px;
+    margin-left: 320px;
+}
+
+.tiesnetwork {
+    font-family: Moderat_ss02;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.tiesnetwork .text-style-1 {
+    letter-spacing: 0.9px;
+}
+
+.tiesnetwork .text-style-2 {
+    color: #e92f2c;
+}
+
+.app-bar .menu-button {
+    text-transform: none !important;
+    font-family: Moderat_ss02;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.app-toolbar {
+    padding: 0 16px !important;
+}
+
+.menu-content {
+    width: 210px !important;
+    max-width: 210px;
+    margin-left: 20px;
+}
+
+.menu-square {
+    width: 24px;
+    height: 24px;
+    background-color: #C4C4C4;
+}
+
+.menu-link {
+    cursor: pointer;
+    font-size: 16px;
+    color: #141414;
+    font-family: AvenirNextLTPro-Demi;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.menu-link.active::before {
+    background-color: #174da1;
+}
+
+.menu-link::before {
+    content: '';
+    padding: 0 10px;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background-color: #C4C4C4;
+}
+
+.menu-download,
+.menu-white-paper {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.menu-download {
+    background-color: #174da1 !important;
+}
+
+.menu-download > span {
+    color: white !important;
+    font-family: AvenirNextLTPro-Demi;
+    text-transform: none;
+}
+
+.menu-white-paper {
+    background-color: #ffffff !important;
+    border: 1px solid black !important;
+}
+
+.menu-white-paper > span, .menu-white-paper a {
+    color: black !important;
+    text-transform: none;
+}
+
+.header-logo {
+    width: 21px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.menu-content .social-link-container {
+    padding: 40px 0 0 0;
+}
+
+.menu-content .social-link-container button {
+    width: 35px;
+    height: 35px;
+}
+
+@media (min-width: 1279.5px ) {
+    .drawer-paper {
+        transform: none !important;
+    }
+}
+
+@media (max-width: 1279.5px ) {
+    .drawer-paper {
+        margin-top: 0px;
+    }
+
+    .drawer-content {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .header-logo {
+        margin-right: 1%;
+    }
+
+    .header-logo-container {
+        margin-right: 7px;
+    }
+
+    .menu-button-container {
+        max-width: 90px !important;
+    }
+
+    .app-bar .menu-button {
+        font-size: 20px;
+        padding-bottom: 14px;
+    }
+}

@@ -1,0 +1,18 @@
+.social-link-container{
+    padding-top: 54px;
+    padding-bottom: 110px;
+}
+
+.social-link {
+    padding: 5px;
+    color: inherit;
+}
+
+.social-link i  {
+    color: inherit;
+    color: black;
+}
+
+.social-link i:hover {
+    color: rgb(26, 77, 159);
+}
